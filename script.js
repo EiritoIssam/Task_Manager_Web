@@ -1,9 +1,11 @@
 // Tâches affichées au démarrage de l'application 
-const tasks = [ 
-  { title: "Préparer le cours DevOps", done: true }, 
-  { title: "Corriger les TP", done: false }, 
-  { title: "Préparer la séance 2", done: false } 
-]; 
+const tasks = [
+  { title: "Préparer le cours DevOps", done: true },
+  { title: "Corriger les TP", done: false },
+  { title: "Préparer la séance 2", done: false },
+  { title: "Apprendre Git et GitHub", done: false }
+];
+
   
 const list = document.getElementById("task-list"); 
 const form = document.getElementById("task-form"); 
